@@ -6,25 +6,25 @@ return {
         opts = {
             disable_italics = false,
             colors = {
-                -- Monotone shades (base00-base07)
-                base00 = "#000111", -- Default background
-                base01 = "#3e45b9", -- Lighter background (status bars)
-                base02 = "#000111", -- Selection background
-                base03 = "#3e45b9", -- Comments, invisibles
-                base04 = "#7781D1", -- Dark foreground
-                base05 = "#b9bfea", -- Default foreground
-                base06 = "#b9bfea", -- Light foreground
-                base07 = "#7781D1", -- Light background
+                -- Monotone shades (base00-base07) - Tiger theme (high contrast)
+                base00 = "#0A0F15", -- Default background (dark blue-gray)
+                base01 = "#1A2A3A", -- Lighter background (status bars)
+                base02 = "#334A5F", -- Selection background
+                base03 = "#6B88A8", -- Comments, invisibles
+                base04 = "#90A8C0", -- Dark foreground
+                base05 = "#E0E8F0", -- Default foreground (light blue-gray)
+                base06 = "#E8F0F8", -- Light foreground
+                base07 = "#F0F8FF", -- Light background
 
-                -- Accent colors (base08-base0F)
-                base08 = "#2936ff", -- Variables, errors, red
-                base09 = "#858cff", -- Integers, constants, orange
-                base0A = "#7379d4", -- Classes, types, yellow
-                base0B = "#6D76C5", -- Strings, green
-                base0C = "#9da1d7", -- Support, regex, cyan
-                base0D = "#8085d6", -- Functions, keywords, blue
-                base0E = "#7c83e9", -- Keywords, storage, magenta
-                base0F = "#b7baec", -- Deprecated, brown/yellow
+                -- Accent colors (base08-base0F) - Tiger theme (high contrast)
+                base08 = "#FF4830", -- Variables, errors, red (bright orange-red)
+                base09 = "#6B88A8", -- Integers, constants (blue-gray)
+                base0A = "#B0C0D8", -- Classes, types (light gray)
+                base0B = "#6B88A8", -- Strings (blue-gray)
+                base0C = "#B0C0D8", -- Support, regex (light gray)
+                base0D = "#90A8C0", -- Functions, keywords (blue-gray)
+                base0E = "#FF6050", -- Keywords, storage (bright orange-red)
+                base0F = "#B0C0D8", -- Deprecated (light gray)
             },
         },
         config = function(_, opts)

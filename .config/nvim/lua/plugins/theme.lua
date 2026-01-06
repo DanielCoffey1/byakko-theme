@@ -1,0 +1,1 @@
+/home/djcoffey/.config/hypr/theme/neovim.lua

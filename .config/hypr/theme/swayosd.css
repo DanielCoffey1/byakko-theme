@@ -1,10 +1,10 @@
-/* SwayOSD Custom Theme - OLED Black & Teal */
+/* SwayOSD Custom Theme - Cotton Candy */
 
 /* Main OSD window styling */
 window#osd {
-  background: alpha(#000000, 0.85);
+  background: alpha(#363849, 0.85);
   border-radius: 16px;
-  border: 2px solid alpha(#00FFD4, 0.6);
+  border: 2px solid alpha(#C6B2D9, 0.6);
   padding: 20px;
 }
 
@@ -16,26 +16,26 @@ window#osd {
 
 /* Label/text styling */
 label {
-  color: #00E5CC;
+  color: #D6D1DC;
   font-family: monospace;
   font-size: 18px;
 }
 
 /* Progress bar background track */
 progressbar trough {
-  background: alpha(#003333, 0.5);
+  background: alpha(#55586B, 0.5);
   border-radius: 8px;
   min-height: 12px;
 }
 
 /* Progress bar fill */
 progressbar progress {
-  background: #00FFD4;
+  background: #C6B2D9;
   border-radius: 8px;
   min-height: 12px;
 }
 
 /* Icon/image styling */
 image {
-  color: #00E5CC;
+  color: #D6D1DC;
 }

@@ -2,7 +2,7 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "source": "arch",
-    "color": { "1": "blue" },
+    "color": { "1": "#FF4830" },
     "padding": {
       "top": 2,
       "right": 6,
@@ -18,39 +18,39 @@
     {
       "type": "host",
       "key": " PC",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "cpu",
       "key": "│ ├",
       "showPeCoreCount": true,
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "gpu",
       "key": "│ ├",
       "detectionMethod": "pci",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "display",
       "key": "│ ├󱄄",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "disk",
       "key": "│ ├󰋊",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "memory",
       "key": "│ ├",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "swap",
       "key": "└ └󰓡 ",
-      "keyColor": "green"
+      "keyColor": "#6B88A8"
     },
     {
       "type": "custom",
@@ -64,48 +64,48 @@
     {
       "type": "os",
       "key": "\ue900 OS",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "kernel",
       "key": "│ ├",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "wm",
       "key": "│ ├",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "de",
       "key": " DE",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "terminal",
       "key": "│ ├",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "packages",
       "key": "│ ├󰏖",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "wmtheme",
       "key": "│ ├󰉼",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "colors",
       "key": "│ ├󰸌",
-      "keyColor": "blue",
+      "keyColor": "#B0C0D8",
       "symbol": "circle"
     },
     {
       "type": "terminalfont",
       "key": "└ └",
-      "keyColor": "blue"
+      "keyColor": "#B0C0D8"
     },
     {
       "type": "custom",
@@ -119,13 +119,13 @@
     {
       "type": "command",
       "key": "󱦟 OS Age",
-      "keyColor": "magenta",
+      "keyColor": "#FF4830",
       "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
     },
     {
       "type": "uptime",
       "key": "󱫐 Uptime",
-      "keyColor": "magenta"
+      "keyColor": "#FF4830"
     },
     {
       "type": "custom",

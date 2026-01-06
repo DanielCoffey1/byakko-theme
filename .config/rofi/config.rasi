@@ -9,14 +9,14 @@ configuration {
 }
 
 * {
-    bg: #00000099;
-    bg-alt: #00000066;
-    bg-selected: #00FFD466;
-    fg: #00E5CC;
-    fg-alt: #00A89699;
+    bg: #0A0F15EE;
+    bg-alt: #1A2A3AEE;
+    bg-selected: #334A5FFF;
+    fg: #E0E8F0;
+    fg-alt: #B0C0D8;
 
-    accent: #00FFD4;
-    accent-translucent: #00FFD466;
+    accent: #FF4830;
+    accent-translucent: #FF4830DD;
 
     /* Override default colors */
     background: transparent;
