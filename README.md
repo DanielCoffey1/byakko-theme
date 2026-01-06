@@ -48,7 +48,7 @@ My personal configuration files for Arch Linux with Hyprland.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/DanielCoffey1/black-and-teal-dotfiles ~/dotfiles
+   git clone https://github.com/DanielCoffey1/byakko-theme ~/dotfiles
    cd ~/dotfiles
    ```
 
